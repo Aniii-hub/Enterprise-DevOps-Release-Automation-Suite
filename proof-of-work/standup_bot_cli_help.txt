@@ -1,0 +1,21 @@
+usage: standup_bot.py [-h] [--path PATH] [--author AUTHOR] [--today]
+                      [--yesterday] [--days DAYS] [--since SINCE]
+                      [--until UNTIL] [-s] [--voice VOICE] [-c] [-v] [--save]
+
+MedVista Daily Standup Bot: Generates a 1-2 minute verbal & text standup
+summary.
+
+options:
+  -h, --help       show this help message and exit
+  --path PATH      Workspace path to scan (defaults to current dir)
+  --author AUTHOR  Filter commits by author (can specify multiple)
+  --today          Summarize today's work so far
+  --yesterday      Strictly summarize yesterday
+  --days DAYS      Look back N days (e.g. --days 3)
+  --since SINCE    Start date (YYYY-MM-DD)
+  --until UNTIL    End date (YYYY-MM-DD)
+  -s, --speak      Speak the standup out loud using macOS voice
+  --voice VOICE    Specify macOS voice name (e.g. Samantha, Alex, Victoria)
+  -c, --copy       Copy Slack/Teams markdown to clipboard
+  -v, --verbose    Show all commits and raw activity details
+  --save           Save the summary into reports/standup_<date>.md

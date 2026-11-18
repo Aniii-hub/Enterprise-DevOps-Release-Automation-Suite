@@ -1,0 +1,34 @@
+
+[1m[36m╔═══════════════════════════════════════════════════════════════════╗
+║                🎙️  MEDVISTA DAILY STANDUP BOT                      ║
+║         Your 1-to-2 Minute Personal Work Summary & Speech         ║
+╚═══════════════════════════════════════════════════════════════════╝[0m
+
+[2m🔍 Workspace:[0m /Users/aniru/Documents/GitHub/2050digi/tools
+[2m👤 Authors:[0m   anicorazonkare, anirudh.pardeshi@medvista.com.au, Aniii-hub
+[2m⏱️  Window:[0m    2026-11-04 00:00 ➔ 2026-11-18 14:18 (Last 14 days)
+[2m⏳ Scanning microservices and workspace activity...[0m
+
+[1m[35m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1m[35m🗣️  WHAT TO SAY IN STANDUP (1-2 Min Spoken Script)[0m
+[2m   ⏱️ Estimated spoken duration: [1m18s[0m[2m (42 words at 140 wpm)[0m
+[1m[35m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+
+In my last working session covering Last 14 days, I focused primarily on release synchronization, build automation, and environment verification. Today, I'm focusing on monitoring deployment status and branch sync pipelines across UAT and production. I have no blockers at this time.
+
+[1m[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1m[36m💬 SLACK / TEAMS COPY-PASTE FORMAT[0m
+[1m[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+
+📋 *Daily Standup Update* (Last 14 days)
+
+🎯 *Yesterday / Last Session Accomplishments:*
+• Continued ongoing development and environment configuration tasks
+
+🚀 *Today's Focus:*
+• Monitor branch analyzer sync & UAT/DEV restore verifications
+• Helm release checks & deployment stability review
+
+🚧 *Blockers / Impediments:*
+• None currently
+

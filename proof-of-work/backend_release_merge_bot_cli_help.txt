@@ -1,0 +1,29 @@
+usage: backend_release_merge_bot.py [-h] [--email-text EMAIL_TEXT]
+                                    [--email-file EMAIL_FILE]
+                                    [--services SERVICES] [--src SRC]
+                                    [--tgt TGT] [--sender SENDER] [--dry-run]
+                                    [--auto-fix-triggers] [--check-k8s]
+                                    [--k8s-namespace K8S_NAMESPACE] [--yes]
+
+MedVista Backend Release Merger & Conflict Watchdog
+
+options:
+  -h, --help            show this help message and exit
+  --email-text EMAIL_TEXT
+                        Raw text or paste of developer release email
+  --email-file EMAIL_FILE
+                        Path to file containing release email text
+  --services SERVICES   Comma-separated backend services (e.g. Medvista-BE-
+                        Core-Service,Medvista-BE-IPD-Service)
+  --src SRC             Source branch (default: dev)
+  --tgt TGT             Target branch (default: uat)
+  --sender SENDER       Email address of developer who sent release email
+                        (e.g. jagdeesh@...)
+  --dry-run             Simulate check and detect conflicts without merging
+  --auto-fix-triggers   Automatically fix missing triggers in build.yaml
+                        without interactive prompt
+  --check-k8s           Verify Kubernetes pod rollout status after build
+  --k8s-namespace K8S_NAMESPACE
+                        Kubernetes namespace to check rollout in (default:
+                        dev)
+  --yes, -y             Skip confirmation prompt

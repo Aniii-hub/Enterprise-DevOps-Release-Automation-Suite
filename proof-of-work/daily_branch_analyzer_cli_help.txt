@@ -1,0 +1,15 @@
+usage: daily_branch_analyzer.py [-h] [--output-dir OUTPUT_DIR]
+                                [--email EMAIL [EMAIL ...]]
+                                [--auto-sync-rmh-sit] [--no-auto-sync-rmh-sit]
+
+MedVista Daily Cross-Org Branch Analyzer & Auto-Refresher
+
+options:
+  -h, --help            show this help message and exit
+  --output-dir OUTPUT_DIR
+                        Directory to save report markdown/HTML
+  --email EMAIL [EMAIL ...]
+                        Recipient email addresses
+  --auto-sync-rmh-sit   Auto-merge new RMH-SIT commits into target RMH-SIT
+  --no-auto-sync-rmh-sit
+                        Disable auto-merging of RMH-SIT

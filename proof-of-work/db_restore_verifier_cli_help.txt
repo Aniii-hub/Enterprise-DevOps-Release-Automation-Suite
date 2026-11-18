@@ -1,0 +1,52 @@
+usage: db_restore_verifier.py [-h] [--mode {swap,compare}]
+                              [--source-env {uat,dev,prod,custom}]
+                              [--target-env {uat,dev,prod,custom}] [--db DB]
+                              [--all] [--temp-suffix TEMP_SUFFIX]
+                              [--source-kc SOURCE_KC] [--source-ns SOURCE_NS]
+                              [--source-pod SOURCE_POD]
+                              [--source-pwd SOURCE_PWD]
+                              [--target-kc TARGET_KC] [--target-ns TARGET_NS]
+                              [--target-pod TARGET_POD]
+                              [--target-pwd TARGET_PWD]
+                              [--output-dir OUTPUT_DIR]
+                              [--email EMAIL [EMAIL ...]] [--no-email]
+
+Medvista Master Multi-Environment Database Comparison & Pre-Swap Tool
+
+options:
+  -h, --help            show this help message and exit
+  --mode {swap,compare}
+                        Operation mode: 'swap' for Pre-Swap restore
+                        verification (3-way); 'compare' for direct env-to-env
+                        comparison (2-way).
+  --source-env {uat,dev,prod,custom}
+                        Source environment preset: uat, dev, prod, or custom.
+  --target-env {uat,dev,prod,custom}
+                        Target environment preset: uat, dev, prod, or custom.
+  --db DB               Specific database to audit (e.g.
+                        Medvista_QAIPDBillDB).
+  --all                 Audit all 12 Medvista databases.
+  --temp-suffix TEMP_SUFFIX
+                        Suffix for temporary database in swap mode (default:
+                        _temp).
+  --source-kc SOURCE_KC
+                        Override Source kubeconfig path.
+  --source-ns SOURCE_NS
+                        Override Source namespace.
+  --source-pod SOURCE_POD
+                        Override Source pod name.
+  --source-pwd SOURCE_PWD
+                        Override Source password.
+  --target-kc TARGET_KC
+                        Override Target kubeconfig path.
+  --target-ns TARGET_NS
+                        Override Target namespace.
+  --target-pod TARGET_POD
+                        Override Target pod name.
+  --target-pwd TARGET_PWD
+                        Override Target password.
+  --output-dir OUTPUT_DIR
+                        Directory where reports are saved.
+  --email EMAIL [EMAIL ...]
+                        Recipient email addresses.
+  --no-email            Skip sending email report.
